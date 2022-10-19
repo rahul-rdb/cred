@@ -1,0 +1,9 @@
+.window-peek{
+background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/new-image-mock.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height: 500px;
+background-size: cover;
+min-width:100vW ;
+}

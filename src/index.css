@@ -1,0 +1,14 @@
+@import url(./common/styles/fonts/fonts.css);
+@import url(./common/styles/variables.css);
+@import url(./common/styles/commonClasses.css);
+@import url(./common/styles/animations.css);
+
+body{
+  margin: 0;
+  font-family: 'Gilroy';
+  box-sizing: border-box;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  background-color: var(--bg-black);
+  color: var(--white);
+}

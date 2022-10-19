@@ -1,0 +1,43 @@
+.brands-wrapper{
+width: 100vw;
+}
+
+.brands-strip {
+  background-color: var(--white);
+  color: var(--bg-black);
+  padding: 60px 100px;
+}
+
+.brands-heading {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38px;
+}
+
+.brands-image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  height: 50px;
+  width: 100%;
+  margin-top: 50px;
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/brands-desktop.png);
+}
+
+@media all and (max-width: 767px) {
+
+  .brands-strip{
+    padding:60px 40px;
+  }
+  .brands-heading{
+  font-size: 18px;
+  font-weight: 700;
+  }
+  .brands-image {
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/brands-mobile.png);
+    margin-top: 35px;
+    background-size: contain;
+    height: 240px;
+    background-position: left center;
+  }
+}

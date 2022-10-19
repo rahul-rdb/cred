@@ -1,0 +1,15 @@
+.security {
+    background-color: var(--bg-purple);
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/security-bg.jpg
+    );
+    background-position: center bottom;
+  }
+  
+  @media all and (max-width:768px) {
+      .security{
+          background-image:url(https://web-images.credcdn.in/_next/assets/images/home-page/security-bg-mobile.jpg
+          );
+          background-position: right center ;
+          min-height: 1150px;
+    }
+  }
